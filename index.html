@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="container">
+            <div class="operation-buttons">
+                <button id="buttonPlus" class="operation-button buttonPlus"><span>+</span></button>
+                <button id="buttonMinus" class="operation-button buttonMinus"><span>-</span></button>
+                <button id="buttonMultiply" class="operation-button buttonMultiply"><span>&times;</span></button>
+                <button id="buttonDivide" class="operation-button buttonDivide"><span>&divide;</span></button>
+            </div>
+            <div class="numbers">
+                <div class="input-container">
+                    <label for="number1">Number 1</label>
+                    <input id="number1" name="Number" type="number">
+                </div>
+                <div class="input-container">
+                    <label for="number2">Number 2</label>
+                    <input id="number2" type="number">
+                </div>
+            </div>
+            <div class="result">
+                <label for="result">Result</label>
+                <input id="result" type="number" readonly>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

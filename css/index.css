@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+.operation-buttons {
+    margin-bottom: 30px;
+}
+
+.operation-button {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.operation-button span {
+    font-size: 30px;
+}
+
+.numbers {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   margin-bottom: 20px;
+}
+
+.input-container label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.result label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+}
